@@ -1,0 +1,329 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>SkillHavenPro | Learn. Build. Succeed.</title>
+
+<style>
+*{
+margin:0;
+padding:0;
+box-sizing:border-box;
+font-family:Arial,Helvetica,sans-serif;
+}
+
+body{
+background:#071226;
+color:#fff;
+overflow-x:hidden;
+}
+
+header{
+padding:25px 8%;
+display:flex;
+justify-content:space-between;
+align-items:center;
+position:fixed;
+width:100%;
+top:0;
+background:rgba(7,18,38,.92);
+backdrop-filter:blur(10px);
+z-index:999;
+}
+
+.logo{
+font-size:28px;
+font-weight:bold;
+color:#00d4ff;
+}
+
+nav a{
+color:#fff;
+text-decoration:none;
+margin-left:25px;
+transition:.3s;
+}
+
+nav a:hover{
+color:#00d4ff;
+}
+
+.hero{
+min-height:100vh;
+display:flex;
+align-items:center;
+justify-content:center;
+padding:120px 8% 80px;
+background:
+linear-gradient(rgba(7,18,38,.85),rgba(7,18,38,.92)),
+url("https://images.unsplash.com/photo-1516321318423-f06f85e504b3?auto=format&fit=crop&w=1600&q=80") center/cover;
+}
+
+.hero-content{
+max-width:700px;
+text-align:center;
+}
+
+.hero h1{
+font-size:60px;
+margin-bottom:20px;
+line-height:1.1;
+}
+
+.hero h1 span{
+color:#00d4ff;
+}
+
+.hero p{
+font-size:19px;
+color:#ddd;
+line-height:1.8;
+margin-bottom:35px;
+}
+
+.btn{
+display:inline-block;
+padding:16px 38px;
+background:#00d4ff;
+color:#071226;
+font-weight:bold;
+border-radius:40px;
+text-decoration:none;
+transition:.3s;
+}
+
+.btn:hover{
+transform:translateY(-4px);
+box-shadow:0 0 25px #00d4ff;
+}
+
+.section{
+padding:90px 8%;
+}
+
+.section-title{
+text-align:center;
+font-size:40px;
+margin-bottom:60px;
+color:#00d4ff;
+}
+
+.grid{
+display:grid;
+grid-template-columns:repeat(auto-fit,minmax(250px,1fr));
+gap:30px;
+}
+
+.card{
+background:#10233f;
+padding:35px;
+border-radius:16px;
+transition:.4s;
+}
+
+.card:hover{
+transform:translateY(-10px);
+background:#15345c;
+}
+
+.card h3{
+margin-bottom:15px;
+color:#00d4ff;
+}
+
+.stats{
+display:grid;
+grid-template-columns:repeat(auto-fit,minmax(180px,1fr));
+gap:25px;
+text-align:center;
+}
+
+.stat{
+background:#10233f;
+padding:35px;
+border-radius:15px;
+}
+
+.number{
+font-size:48px;
+color:#00d4ff;
+font-weight:bold;
+margin-bottom:10px;
+}
+
+.cta{
+text-align:center;
+background:#0d1d36;
+padding:80px 8%;
+}
+
+.cta h2{
+font-size:42px;
+margin-bottom:20px;
+}
+
+footer{
+padding:30px;
+text-align:center;
+background:#06101f;
+color:#aaa;
+}
+
+@media(max-width:768px){
+
+.hero h1{
+font-size:40px;
+}
+
+nav{
+display:none;
+}
+
+}
+</style>
+
+</head>
+<body>
+
+<header>
+
+<div class="logo">SkillHavenPro</div>
+
+<nav>
+<a href="#">Home</a>
+<a href="#">Courses</a>
+<a href="#">Skills</a>
+<a href="#">About</a>
+<a href="#">Contact</a>
+</nav>
+
+</header>
+
+<section class="hero">
+
+<div class="hero-content">
+
+<h1>Master <span>Future Skills</span> With Confidence</h1>
+
+<p>
+SkillHavenPro helps learners build practical knowledge,
+develop career-ready skills, and stay ahead through modern
+learning resources designed for today's digital world.
+</p>
+
+<a href="#" class="btn">Start Learning</a>
+
+</div>
+
+</section>
+
+<section class="section">
+
+<h2 class="section-title">Why SkillHavenPro?</h2>
+
+<div class="grid">
+
+<div class="card">
+<h3>Professional Courses</h3>
+<p>Access carefully organized learning materials covering business, technology, design, marketing, and personal growth.</p>
+</div>
+
+<div class="card">
+<h3>Learn Anywhere</h3>
+<p>Study from desktop, tablet, or mobile with responsive resources available whenever inspiration strikes.</p>
+</div>
+
+<div class="card">
+<h3>Career Focused</h3>
+<p>Develop practical skills that help improve productivity, confidence, and professional opportunities.</p>
+</div>
+
+</div>
+
+</section>
+
+<section class="section">
+
+<h2 class="section-title">Our Growth</h2>
+
+<div class="stats">
+
+<div class="stat">
+<div class="number" data-target="120">0</div>
+<p>Learning Guides</p>
+</div>
+
+<div class="stat">
+<div class="number" data-target="50">0</div>
+<p>Skill Categories</p>
+</div>
+
+<div class="stat">
+<div class="number" data-target="98">0</div>
+<p>Success Rate %</p>
+</div>
+
+<div class="stat">
+<div class="number" data-target="24">0</div>
+<p>Support Hours</p>
+</div>
+
+</div>
+
+</section>
+
+<section class="cta">
+
+<h2>Unlock Your Potential Today</h2>
+
+<p style="max-width:700px;margin:20px auto 35px;color:#ddd;font-size:18px;">
+Every new skill creates new opportunities.
+Join SkillHavenPro and continue building your future through continuous learning.
+</p>
+
+<a href="#" class="btn">Explore Resources</a>
+
+</section>
+
+<footer>
+
+© 2026 SkillHavenPro.site • Learn • Improve • Grow
+
+</footer>
+
+<script>
+
+const numbers=document.querySelectorAll(".number");
+
+numbers.forEach(num=>{
+
+const update=()=>{
+
+const target=+num.getAttribute("data-target");
+const count=+num.innerText;
+
+const increment=target/120;
+
+if(count<target){
+
+num.innerText=Math.ceil(count+increment);
+
+setTimeout(update,20);
+
+}else{
+
+num.innerText=target;
+
+}
+
+}
+
+update();
+
+});
+
+</script>
+
+</body>
+</html>
